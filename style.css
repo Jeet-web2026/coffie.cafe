@@ -1,0 +1,560 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+/*------navbar------*/
+.navbar{
+	display: flex;
+	align-items: center;
+	padding: 0px 80px;
+	position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+}
+.navbar .left{
+	width: 40%;
+}
+.navbar .right{
+	width: 60%;	
+}
+.navbar .menu{
+	display: flex;
+	padding-left: 100px;
+	align-items: center;
+}
+.navbar a{
+	color: #111;
+	text-decoration: none;
+}
+.navbar a:hover{
+	color: #c1a4a4;
+}
+.navbar .menu-items{
+	list-style: none;
+	padding-right: 24px;
+	font-weight: 600;
+}
+.navbar .fa-solid{
+	padding-right: 15px;
+}
+.navbar .button{
+	padding: 8px 15px;
+	border-radius: 30px;
+	cursor: pointer;
+	border: 2px solid #ffffff;
+}
+.navbar .button:hover{
+	color: #000000;
+	background-color: #ffffff;
+	border: 2px solid #0000000d;
+	transition: 0.2s;
+}
+/*------navbar------*/
+
+/*---banner---*/	
+.banner{
+	background-image: url('	https://images.pexels.com/photos/414565/pexels-photo-414565.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.banner .heading{
+	margin: 0;
+	color: #ffffff;
+	font-size: 40px;
+}
+.banner .span{
+	color: aqua;
+}
+.banner .content{
+	text-align: center;
+}
+.banner .para{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.banner .btn{
+	background-color: #fff;
+	color: #111;
+	border: 1px solid #fff;
+	padding: 8px 25px;
+	border-radius: 30px;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 16px;
+}
+.banner .btn:hover{
+	background-color: #111;
+	color: #fff;
+	border: 1px solid #111;
+}
+/*---banner---*/
+
+/*---about---*/
+.about{
+	text-align: center;
+	padding: 70px 65px;
+	overflow: hidden;
+}
+.about .about-items{
+	display: flex;
+}
+.about .left{
+	width: 65%;
+	text-align: left;
+}
+.about .right{
+	width: 30%;
+}
+.about .img{
+	height: 280px;
+	width: 100%;
+	border-radius: 15px;
+	margin-left: 55px;
+}
+.about a{
+	text-decoration: none;
+	color: #111;
+}
+.about a:hover{
+	color: aqua;
+	transition: 0.3s;
+}
+/*---about---*/
+
+/*---services---*/
+.services{
+	text-align: center;
+	background-color: #0000000d;
+	padding: 50px 40px;
+}
+.services .top-heading{
+	margin-bottom: 50px;
+}
+.services .service-items{
+	display: flex;
+	width: 100%;
+}
+.services .card{
+	display: flex;
+	width: 48%;
+	border: 1px solid #111;
+	border-radius: 20px;
+	padding: 10px 10px 0 10px;
+}
+.services .card_2{
+	display: flex;
+	width: 48%;
+	border: 1px solid #111;
+	border-radius: 20px;
+	padding: 10px 10px 0 10px;
+	margin-left: 20px;
+}
+.services .image{
+	width: 40%;
+}
+.services .body{
+	width: 60%;
+}
+.services .img{
+	height: 250px;
+	width: 100%;
+	border-radius: 20px;
+}
+.services .body{
+	margin: 0;
+	padding: 0;
+	padding-left: 10px;
+	text-align: left;
+}
+.services .heading{
+	margin: 0;
+}
+/*---services---*/
+
+/*---testimonials---*/
+.testimonials{
+	padding: 50px;
+	text-align: center;
+}
+.testimonials .heading{
+	margin-bottom: 20px;
+}
+.testimonials .sub-heading{
+	margin-bottom: 50px;
+}
+.testimonials .reviews{
+	display: flex;
+
+}
+.testimonials .review-1{
+	width: 25%;
+	text-align: left;
+	border: 1.5px solid black;
+	padding: 20px 35px;
+	background-image: url('	https://images.pexels.com/photos/5325105/pexels-photo-5325105.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 30px;
+	color: #ffffff;
+	margin-right: 40px;
+}
+.testimonials .review-2{
+	width: 25%;
+	text-align: left;
+	border: 1.5px solid black;
+	padding: 20px 35px;
+	background-image: url('	https://images.pexels.com/photos/4345160/pexels-photo-4345160.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 30px;
+	color: #ffffff;
+	margin-right: 40px;
+}
+.testimonials .review-3{
+	width: 25%;
+	text-align: left;
+	border: 1.5px solid black;
+	padding: 20px 35px;
+	background-image: url('	https://images.pexels.com/photos/5325108/pexels-photo-5325108.jpeg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 30px;
+	color: #ffffff;
+	margin-right: 0;
+}
+/*---testimonials---*/
+
+/*---contact us---*/
+.contact-us{
+	padding: 80px 80px;
+	background-color: #93d6e521;
+	text-align: center;
+}
+.contact-us .heading{
+	margin-bottom: 50px;
+}
+.contact-us .connect-us{
+	display: flex;
+}
+.contact-us .chat{
+	text-align: left;
+	align-items: center;
+	width: 40%;
+	margin-right: 160px;
+}
+.contact-us .fa-brands{
+	margin-right: 10px;
+	font-size: 25px;
+	font-weight: 600;
+	color: green;
+}
+.contact-us .fa-phone{
+	margin-right: 10px;
+	font-size: 25px;
+	font-weight: 600;
+	color: blue;
+}
+.contact-us .touch{
+	width: 50%;
+	text-align: left;
+	background-color: #fff;
+	padding: 20px 30px;
+	border-radius: 30px;
+}
+.touch .multiple-input{
+	display: flex;
+}
+.touch .first{
+	margin-right: 105px;
+}
+.touch .first_n{
+	padding: 5px 0px;
+	width: 150%;
+	margin-top: 8px;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+.touch .last_n{
+	padding: 5px 0px;
+	width: 150%;
+	margin-top: 8px;
+	border-radius: 8px;
+	margin-bottom: 15px;
+}
+.touch .touch-heading{
+	margin-bottom: 35px;
+}
+.touch .email{
+	margin-bottom: 15px;
+	padding: 5px 0px;
+	width: 100%;
+	border-radius: 8px;
+}
+.touch .password{
+	margin-bottom: 15px;
+	padding: 5px 0px;
+	width: 100%;
+	border-radius: 8px;
+}
+.touch .button{
+	padding: 8px 20px;
+	border: 1px solid aqua;
+	border-radius: 25px;
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 15px;
+	background-color: #111;
+	color: #fff;
+}
+/*---contact us---*/
+
+/*---footer---*/
+.footer{
+	padding: 40px 40px;
+	color: #111;
+}
+.footer .footer-body{
+	display: flex;
+	width: 100%;
+}
+.footer .footer-content{
+	width: 50%;
+	text-align: left;
+	margin-right: 150px;
+	padding-left: 50px;
+}
+.footer .footer-content-2{
+	width: 25%;
+	text-align: left;
+}
+.footer .content-menu{
+	list-style: none;
+	padding-left: 0;
+}
+.footer .content-menu-items{
+	padding-bottom: 8px;
+}
+.footer a{
+	text-decoration: none;
+}
+/*---footer---*/
+
+/*---follow---*/
+.follow{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px 35px;
+	background-color: aqua;
+	position: absolute;
+	left: 150px;
+	right: 150px;
+	top: 2925px;
+}
+.follow h3{
+	margin: 0;
+	padding: 0;
+}
+.follow i{
+	margin: 0;
+	padding-right: 20px;
+	font-size: 20px;
+}
+/*---follow---*/
+
+
+
+/*------------------------------------------Responsive design------------------------------------------*/
+@media only screen and (max-width: 900px) {
+
+  .navbar{
+  	position: absolute;
+  	display: block;
+  	padding: 0;
+  	color: #fff;
+  	width: 70%;
+  	background-color: transparent;
+  }
+  .navbar h2{
+  	margin-top: 11px;
+  	margin-bottom: 11px;
+  }
+  .navbar .left{
+  	padding-left: 15px;
+  	margin: 0;
+  	display: inline-block;
+  	position: fixed;
+  	background-color: #505050;
+  	width: 100%;
+  }
+  .navbar .right{
+  	width: 70%;
+  	padding-top: 100px;
+  	margin-left: -100%;
+  	height: 100vh;
+  	background-color: #505050;
+  	transition: 0.2s;
+  	position: fixed;
+  	z-index: -1;
+  }
+  .navbar .menu{
+  	display: block;
+  	padding: 0;
+  	text-align: center;
+  }
+  .navbar a{
+  	color: #fff;
+  }
+  .navbar .menu-items{
+  	padding: 0;
+  	margin-bottom: 25px;
+  }
+  .banner{
+  	height: 100vh;
+  	overflow: hidden;
+  }
+  .banner .span{
+  	display: block;
+  }
+  .banner .para{
+  	padding: 0 10px;
+  }
+  .about{
+  	padding: 20px 25px;
+  }
+  .about .about-items{
+  	display: block;
+  }
+  .about .left{
+  	width: 100%;
+  	text-align: center;
+  	margin-bottom: 10px;
+  }
+  .about .right{
+  	width: 100%;
+  }
+  .about .img{
+  	padding: 0;
+  	margin: 0;
+  	width: 100%;
+  }
+  .testimonials{
+  	overflow: hidden;
+  }
+  .contact-us{
+  	overflow: hidden;
+  	padding: 20px 25px;
+  }
+  .footer{
+  	overflow: hidden;
+  }
+  .services .card{
+  	display: block;
+  	width: auto;
+  	margin-bottom: 30px;
+  	border: transparent;
+  	background-color: #fff;
+  	padding: 15px;
+  }
+  .services .card_2{
+  	display: block;
+  	width: auto;
+  	margin-left: 0;
+  	border: transparent;
+  	background-color: #fff;
+  	padding: 15px;
+  }
+  .services .body{
+  	width: auto;
+  }
+  .services .service-items{
+  	display: block;
+  }
+  .services .image{
+  	width: 100%;
+  }
+  .services .img{
+  	height: 300px;
+    border-radius: 20px;
+    width: 100%;
+  }
+  .testimonials .reviews{
+  	display: block;
+  }
+  .testimonials .review-1{
+  	width: auto;
+  	padding: 10px;
+  	margin-right: 0px;
+  	margin-bottom: 25px;
+  }
+  .testimonials .review-2{
+  	width: auto;
+  	padding: 10px;
+  	margin-right: 0px;
+  	margin-bottom: 25px;
+  }
+  .testimonials .review-3{
+  	width: auto;
+  	padding: 10px;
+  	margin-right: 0px;
+  	margin-bottom: 25px;
+  }
+  .contact-us .connect-us{
+  	display: block;
+  }
+  .contact-us .chat{
+  	width: 100%;
+  	text-align: left;
+  }
+  .contact-us .touch{
+  	width: auto;
+  }
+  .contact-us .first{
+  	margin-right: 0;
+  }
+  .contact-us .touch .multiple-input{
+  	display: block;
+  }
+  .contact-us .touch .first_n {
+  	width: 100%;
+  }
+  .contact-us .touch .last_n {
+  	width: 100%;
+  }
+  .contact-us .connect-us .br{
+  	display: block;
+  }
+  .footer .footer-body{
+  	display: block;
+  }
+  .footer .footer-body .footer-content{
+  	width: 100%;
+  	padding-left: 0;
+  }
+  .footer .footer-body .footer-content-2{
+  	width: 100%;
+  	text-align: left;
+  }
+}
+/*------------------------------------------Responsive design------------------------------------------*/
